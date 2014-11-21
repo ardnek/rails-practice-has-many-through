@@ -15,9 +15,8 @@
   <tbody>
     <div class="well">
       <ul>
-        <% @organization.people.each do |person| %>
-        <li><%= person.name %></li>
-
+        <% @organization.people.each do |employees| %>
+        <li><%= employees.name %></li>
       </ul>
       <% end %>
     </div>
